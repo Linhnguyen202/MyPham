@@ -538,6 +538,7 @@
     justify-content: space-around;
 }
 .input-box.select select{
+    width: 100%;
     background-color: transparent;
     font-size: 1.2rem;
     color: black;
