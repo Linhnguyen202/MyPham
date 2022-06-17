@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+:root{
+    --main-color:rgba(230, 159, 159, 1.0);
+    --text-color:rgb(204, 35, 26);
+    --small-color:rgb(204, 36, 26);
+}
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size:62.5%;
+    line-height: 1.6rem;
+    scroll-behavior: smooth;
+}
+img{
+    width: 100%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    margin: 0 auto;
+    width: 420px;
+    height: 100%;
+    min-height: 100vh;
+  background-color: var(--main-color);
+}
+.slick-dots{
+    display: none!important;
+}
+.slick-arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+}
+.slick-next{
+    right: 0;
+    z-index: 10;
+    color: white;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    z-index: 10;
+}
+.slick-prev{
+    left: 5px;
+    z-index: 10;
+    color: white;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    z-index: 10;
+    
+}
+@keyframes bounce{
+    0%, 100%, 20%, 50%, 80% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -webkit-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+@keyframes shake{
+    0%, 100% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        -webkit-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+    20%, 40%, 60%, 80% {
+        -webkit-transform: translateX(10px);
+        -ms-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+}
+@keyframes pulse{
+    0% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes flash{
+    0%, 100%, 50% {
+        opacity: 1;
+    }
+    25%, 75% {
+        opacity: 0;
+    }
+}
