@@ -69,6 +69,20 @@ ul li{
     z-index: 10;
     
 }
+.BuyNow-btn{
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    
+}
+.BuyNow-btn button{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    transform: translateX(-50%);
+    background-color: var(--text-color);
+}
 @keyframes bounce{
     0%, 100%, 20%, 50%, 80% {
         -webkit-transform: translateY(0);

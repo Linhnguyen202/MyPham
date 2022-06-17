@@ -3,7 +3,7 @@ const hours = document.querySelector("#hours")
 const minutes = document.querySelector("#minutes")
 const second = document.querySelector("#second")
 console.log(day,hours,minutes,second)
-const newDay = 'July 20, 2022'
+const newDay = 'June 20, 2022'
 function timeCountDown() {
     const nowDate = new Date().getTime();
     const newYearDate = new Date(newDay).getTime();
