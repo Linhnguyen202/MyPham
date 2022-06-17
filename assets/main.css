@@ -79,7 +79,8 @@ ul li{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--text-color);
+    background-color: rgb(217, 84, 106);
+    
     width: 57px;
     height: 57px;
     top: auto;
@@ -102,7 +103,7 @@ ul li{
 } 
 .call-btn i{
     font-size: 2rem;
-    color: white;
+    color: blue;
 }
 .BuyNow-btn button{
     color: white;
