@@ -26,5 +26,5 @@ function timeCountDown() {
   }
   
   
-  timeCountDown()
+  setInterval(timeCountDown,1000)
   
