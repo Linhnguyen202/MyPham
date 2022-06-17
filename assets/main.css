@@ -111,6 +111,7 @@ ul li{
     font-size: 1.4rem;
     transform: translateX(-50%);
     background-color: var(--text-color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .call-zalo{
     display: flex;
