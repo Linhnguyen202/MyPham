@@ -75,6 +75,35 @@ ul li{
     left: 50%;
     
 }
+.call-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--text-color);
+    width: 57px;
+    height: 57px;
+    top: auto;
+    left: auto;
+    bottom: 80px;
+    right: 8px;
+    position: fixed;
+    z-index: 90000050;
+    border-radius: 100%;
+    margin-right: calc((100% - 420px) / 2);
+    animation-name: pulse;
+    -webkit-animation-name: pulse;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    
+} 
+.call-btn i{
+    font-size: 2rem;
+    color: white;
+}
 .BuyNow-btn button{
     color: white;
     padding: 10px 20px;
@@ -82,6 +111,47 @@ ul li{
     font-size: 1.4rem;
     transform: translateX(-50%);
     background-color: var(--text-color);
+}
+.call-zalo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--text-color);
+    width: 57px;
+    height: 57px;
+    top: auto;
+    left: auto;
+    bottom: 15px;
+    right: 8px;
+    position: fixed;
+    z-index: 90000050;
+    border-radius: 100%;
+    margin-right: calc((100% - 420px) / 2);
+    animation-name: pulse;
+    -webkit-animation-name: pulse;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+.call-zalo .zalo-bg{
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    width: 57px;
+    height: 57px;
+    top: 0px;
+    left: 0px;
+    background-image: url("https://w.ladicdn.com/s400x400/5fec023a51d4c50012c794b5/zalo-20211016162048.png");
 }
 @keyframes bounce{
     0%, 100%, 20%, 50%, 80% {
