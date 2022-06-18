@@ -16,6 +16,9 @@ html{
     line-height: 1.6rem;
     scroll-behavior: smooth;
 }
+body{
+    scroll-behavior: smooth;
+}
 img{
     width: 100%;
 }
