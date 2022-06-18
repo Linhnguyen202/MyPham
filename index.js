@@ -81,16 +81,12 @@ async function getWard(id){
 WardSelecr.innerHTML = list.join('')
 }
 btnBuy.addEventListener('click',()=>{
-  window.scrollTo({
-    top: buyForm.getBoundingClientRect().top,
-    left: buyForm.getBoundingClientRect().bottom,
+  buyForm.scrollIntoView({
     behavior: 'smooth'
   });
 })
 btnOrder.addEventListener('click',()=>{
-  window.scrollTo({
-    top: buyForm.getBoundingClientRect().top,
-    left: buyForm.getBoundingClientRect().bottom,
+  buyForm.scrollIntoView({
     behavior: 'smooth'
   });
 })
