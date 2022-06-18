@@ -34,29 +34,28 @@
 .first-content{
     position: relative;
     margin-top: 57px;
-    height:  637.821px;
+    height:  500.821px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .main-first{
     position: absolute;
     bottom: 20px;
     width: 100%;
+    height: 100%;
     padding: 0 15px;
 }
-.main-first button{
-    background-color: rgb(243, 75, 75);
-    color: white;
-    font-size: 1.6rem;
-    text-transform: uppercase;
-    padding: 12px 20px;
-    border-radius: 20px;
-    cursor: pointer;
+.main-banner-content{
+    position: absolute;
+    bottom: 20%;
 }
 .main-first .banner-main{
     position: absolute;
-    top: 50px;
+    top: 4px;
+    white-space:nowrap ;
+    left: 1px;
     background: linear-gradient(180deg, #e52d27, #b31217);
     color: rgb(255, 255, 255);
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     font-style: italic;
     letter-spacing: 8px;
@@ -75,7 +74,7 @@
 }
 .main-first .banner-main-first{
     color: rgb(224, 175, 175);
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     font-style: italic;
     letter-spacing: 8px;
@@ -133,17 +132,15 @@
 }
 .content-detail  .detail-header{
     padding: 18px;
+    background-color: #f6d65b;
 }
 .content-detail span{
     display: block;
-    font-size: 2.1rem;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
     text-transform: uppercase;
-    color: blue;
+    color: rgb(165, 52, 52);
     margin-bottom: 10px;
-}
-.content-detail h3{
-    font-size: 2.5rem;
-    color: var(--text-color);
 }
 .content-popular-wrap{
     background-color: var(--main-color);
@@ -155,7 +152,7 @@
     padding: 30px 20px 10px;
 }
 .popular-detail span{
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: var(--text-color);
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -163,7 +160,8 @@
     display: inline-block;
 }
 .popular-detail h3{
-    font-size: 3.4rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
     color: var(--text-color);
     font-weight: 400;
     margin-bottom: 30px;
@@ -192,6 +190,11 @@
     text-align: center;
     background-color: var(--main-color);
     padding: 5px;
+}
+.content-product-detail h3{
+    font-size: 2rem;
+    color: #b31217;
+    margin-bottom: 20px;
 }
 .product-detail-list{
     
@@ -280,6 +283,7 @@
     -webkit-animation-iteration-count: infinite;
 }
 .comment-people{
+    margin-top: 10px;
     padding: 0 20px;
 }
 .people-box{
@@ -319,6 +323,7 @@
     gap: 10px;
 }
 .comment-paginate span{
+    cursor: pointer;
     font-size: 1.4rem;
     color: #FAFAFA;
     padding: 5px 10px;
@@ -412,10 +417,10 @@
     
 }
 .policy-content-detail{
+    height: 160px;
     background-color: white;
     display: flex;
     flex-direction: column;
-    gap: 10px;
     align-items: center;
     padding: 20px 10px ;
     border-radius: 10px;
@@ -435,6 +440,7 @@
     box-shadow: 0 0 0 3px #ffe6e6;
 }
 .polocy-detail{
+    margin-top: 15px;
     text-align: center;
     font-size: 1.4rem;
     line-height: 2rem;
@@ -522,25 +528,30 @@
 .input-box input::-webkit-input-placeholder { /* Edge */
     color: black;
     font-weight: bold;
+    font-size: 1.4rem;
 }
   
 .input-box input:-ms-input-placeholder { /* Internet Explorer 10-11 */
     color: black;
     font-weight: bold;
+    font-size: 1.4rem;
 }
   
 .input-box input::placeholder {
     color: black;
     font-weight: bold;
+    font-size: 1.4rem;  
 }
 .input-box.select{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
 }
 .input-box.select select{
     width: 100%;
+    width: 100%;
     background-color: transparent;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: black;
     font-weight: bold;
 }
@@ -584,11 +595,11 @@
 }
 .footer .footer-banner{
     color: #ee66aa;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: underline;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .footer .footer-head{
     color: white;
@@ -617,4 +628,7 @@
     color: white;
     padding: 10px 0;
     font-size: 1.2rem;
+}
+.input-box.checkbox label{
+    font-size: 1.4rem;
 }

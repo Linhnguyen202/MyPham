@@ -143,32 +143,8 @@
     height: 100%;
 
 }
-.main-list{
-    position: absolute;
-    width: 316px;
-    top: 7px;
-    left: 65.5px;
-    
-}
-.main-item{
-    font-size: 1.4rem;
-    color: black;
-    text-decoration: underline;
-    line-height: 2.5rem;
-}
-.main-item i{
-    color: red;
-    margin-right: 2px;
-}
+
+
 .main-image{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    pointer-events: none;
-    width: 367px;
-    height: 357px;
-    top: 138px;
-    left: 26.5px;
-    background-image: url('https://w.ladicdn.com/s700x700/5fe9b7742314ad00120d0715/chong-nang-innisfree-mau-hong-use2-20220312161729.jpg');
+   padding: 20px 10px;
 }

@@ -3,13 +3,15 @@ $('.slider-for').slick({
     slidesToScroll: 1,
     arrows: false,
     fade: true,
+    autoplay:true,
     asNavFor: '.slider-nav'
   });
   $('.slider-nav').slick({
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     asNavFor: '.slider-for',
     dots: true,
+    autoplay:true,
     centerMode: true,
     focusOnSelect: true,
     prevArrow:`
