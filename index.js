@@ -7,6 +7,7 @@ const DistrictSelect = document.querySelector('#DistrictSelect')
 const WardSelecr = document.querySelector('#WardSelecr')
 const btnBuy = document.querySelector('.BuyNow-btn')
 const buyForm = document.querySelector('#form-order')
+const btnOrder = document.querySelector('.btn-tag')
 let city = []
 let district = []
 let ward = []
@@ -80,7 +81,13 @@ async function getWard(id){
 WardSelecr.innerHTML = list.join('')
 }
 btnBuy.addEventListener('click',()=>{
-  console.log(buyForm.getBoundingClientRect().bottom)
+  window.scrollTo({
+    top: buyForm.getBoundingClientRect().top,
+    left: buyForm.getBoundingClientRect().bottom,
+    behavior: 'smooth'
+  });
+})
+btnOrder.addEventListener('click',()=>{
   window.scrollTo({
     top: buyForm.getBoundingClientRect().top,
     left: buyForm.getBoundingClientRect().bottom,
